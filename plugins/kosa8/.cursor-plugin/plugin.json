@@ -1,0 +1,23 @@
+{
+  "name": "kosa8",
+  "displayName": "kosa8",
+  "version": "1.0.0",
+  "description": "Give the agent a sealed Linux machine to work in: kosa8 Cloud sandboxes (microVMs with their own kernel) to run commands and code, move files, preview ports, and checkpoint, rewind and fork.",
+  "author": { "name": "Kosa8 Labs", "email": "contact@kosa8.com" },
+  "homepage": "https://kosa8.com",
+  "repository": "https://github.com/kosa8ai/kosa8-cursor-plugin",
+  "license": "MIT",
+  "keywords": ["sandbox", "microvm", "code-execution", "agents", "security", "mcp", "kosa8"],
+  "logo": "assets/logo.svg",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "KOSA8_API_KEY": {
+        "type": "string",
+        "title": "kosa8 Cloud API key",
+        "description": "A kosa8 Cloud API key (k8c_live_...). Make one at https://app.kosa8.com/app#keys."
+      }
+    },
+    "required": ["KOSA8_API_KEY"]
+  }
+}

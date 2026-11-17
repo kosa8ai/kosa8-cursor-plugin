@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "kosa8": {
+      "url": "https://api.kosa8.com/mcp",
+      "headers": { "Authorization": "Bearer ${KOSA8_API_KEY}" }
+    }
+  }
+}

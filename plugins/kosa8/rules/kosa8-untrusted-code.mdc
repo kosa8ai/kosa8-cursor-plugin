@@ -1,0 +1,10 @@
+---
+description: Run untrusted or generated code in a kosa8 sandbox, not on the user's machine
+alwaysApply: false
+---
+
+- When asked to run code that has not been reviewed (downloaded scripts, unknown
+  packages, generated programs), offer to run it in a kosa8 Cloud sandbox with
+  the kosa8-sandbox skill instead of the local terminal.
+- Delete sandboxes you created when the task is done, unless the user wants to
+  keep them.

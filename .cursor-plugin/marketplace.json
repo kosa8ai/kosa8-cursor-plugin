@@ -1,0 +1,12 @@
+{
+  "name": "kosa8",
+  "owner": { "name": "Kosa8 Labs", "email": "contact@kosa8.com" },
+  "metadata": {
+    "description": "kosa8: secure infrastructure for AI agents. Sealed microVM sandboxes on kosa8 Cloud.",
+    "version": "1.0.0",
+    "pluginRoot": "plugins"
+  },
+  "plugins": [
+    { "name": "kosa8", "source": "kosa8", "description": "Run commands and code in sealed kosa8 Cloud sandboxes (microVMs) you can checkpoint, rewind and fork." }
+  ]
+}
